@@ -1,0 +1,199 @@
+.body {
+  font-family:sofia;
+}
+.header {
+  background-color: #F0F8FF;
+  color: black;
+  height: 90px;
+  }
+
+ .header-list li {
+  font-family:Constantia;
+  list-style: none;
+  float:right;
+  padding: 33px 30px;
+ }
+ .header-logo {
+  font-family:Helvetica;
+  font-size: 31px;
+  float:left;
+  font-weight:bold;
+  padding : 25px 30px;
+ }
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/tours.jpg);
+  background-size: cover;
+  color: red;
+  text-align: right;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h1 span{
+  color: #002200;
+}
+
+.top-wrapper h2 {
+  margin-bottom: 3px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 14px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #345675;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #002200;
+  cursor: pointer;
+  box-shadow: 0 7px #002200;
+  margin: 30px;
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.contact-form p {
+  font-size: 20px;
+  color: #f45656;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.contact-form h3 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+
+.footer {
+
+  background-color: #345678;
+  /*height: cover;
+  width: 100%;*/
+  margin: 0;
+  color: #fff;
+  height: 230px;
+  padding:  40px;
+  opacity: 5;
+
+}
+
+.footer-logo{
+  font-size: 32px;
+  font-style: bold;
+  float: left;
+  font-family: "Lucida Calligraphy";
+}
+
+.footer-list{
+  float:left;
+
+}
+.footer-list ul{
+  float: left;
+  padding:  15px 30px;
+  font-size: 18px;
+  font-style: bold;
+
+}
+.footer-list li{
+  list-style: none;
+  padding-bottom: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.li:hover{
+  opacity: 1;
+}
+
+.btn-wrapper {
+  margin: 10px 0;
+}
+
+.btn-wrapper a {
+  margin: 0;
+  text-decoration:none
+}
+
+.about{
+  color: white;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 5px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram{
+  background-color: #C13584 ;
+}
+
+.btn {
+  padding: 12px 28px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
